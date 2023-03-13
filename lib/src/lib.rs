@@ -4,6 +4,7 @@ mod change;
 mod delta;
 mod doc;
 mod error;
+mod map;
 mod text;
 mod transaction;
 
@@ -14,6 +15,7 @@ use crate::change::YrsChange;
 use crate::delta::YrsDelta;
 use crate::doc::YrsDoc;
 use crate::error::CodingError;
+use crate::map::YrsMap;
 use crate::text::YrsText;
 use crate::text::YrsTextObservationDelegate;
 use crate::transaction::YrsTransaction;
